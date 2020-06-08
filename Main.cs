@@ -38,7 +38,6 @@ namespace QueuingSystem_1
              * validate method, to ensure that there is data inputed
              */
             validate();
-
             /*
              * To get the value from the radiobuttons
              */
@@ -131,17 +130,17 @@ namespace QueuingSystem_1
          */
         private void clearFields()
         {
-            txtLastname.Clear();
-            txtFirstname.Clear();
-            txtMiddlename.Clear();
-            cbMonth.SelectedIndex = -1;
-            cbDate.SelectedIndex = -1;
-            cbYear.SelectedIndex = -1;
+            txtLastname.Text = "Last Name";
+            txtFirstname.Text = "First Name";
+            txtMiddlename.Text = "Middle Name";
+            cbMonth.Text = "Month";
+            cbDate.Text = "Day";
+            cbYear.Text = "Year";
             rbMale.Checked = false;
             rbFemale.Checked = false;
-            txtAddress.Clear();
-            txtEmail.Clear();
-            txtPhonenumber.Clear();
+            txtAddress.Text = "123 Street, Barangay, City, Province";
+            txtEmail.Text = "someone@example.com";
+            txtPhonenumber.Text = "09*********";
         }  
     }
 }

@@ -198,6 +198,7 @@
             this.cbYear.Name = "cbYear";
             this.cbYear.Size = new System.Drawing.Size(87, 31);
             this.cbYear.TabIndex = 27;
+            this.cbYear.Text = "Year";
             // 
             // cbDate
             // 
@@ -239,6 +240,7 @@
             this.cbDate.Name = "cbDate";
             this.cbDate.Size = new System.Drawing.Size(62, 31);
             this.cbDate.TabIndex = 26;
+            this.cbDate.Text = "Day";
             // 
             // cbMonth
             // 
@@ -261,6 +263,7 @@
             this.cbMonth.Name = "cbMonth";
             this.cbMonth.Size = new System.Drawing.Size(121, 31);
             this.cbMonth.TabIndex = 25;
+            this.cbMonth.Text = "Month";
             // 
             // label4
             // 
@@ -315,7 +318,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(179, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(373, 20);
+            this.label2.Size = new System.Drawing.Size(347, 20);
             this.label2.TabIndex = 19;
             this.label2.Text = "Fill-out the following carefully for the registration:";
             // 
